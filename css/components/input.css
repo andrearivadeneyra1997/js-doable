@@ -1,0 +1,34 @@
+.input label {
+  font-size: 14px;
+}
+
+.input input,
+.input select {
+  padding: 9px 13px;
+  border-radius: 6px;
+  border: 1px solid var(--line-100);
+  width: 100%;
+}
+
+input::placeholder,
+select {
+  color: var(--gray-500);
+}
+
+input:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+
+.container-form-actions {
+  width: -webkit-fill-available;
+  margin-top: 16px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container-form-actions a {
+  margin-top: 16px;
+}

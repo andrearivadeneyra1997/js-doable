@@ -1,0 +1,12 @@
+#root {
+  max-width: 375px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.section {
+  padding-bottom: 20px;
+}
